@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ui.swagger.studentapp.restbyapiinfo.ProductsCURDTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.821 sec - in ui.swagger.studentapp.restbyapiinfo.ProductsCURDTestWithSteps

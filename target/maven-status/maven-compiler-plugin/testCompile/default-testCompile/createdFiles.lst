@@ -1,0 +1,6 @@
+ui\swagger\studentapp\restbyapiinfo\CategoriesCURDTestWithSteps.class
+ui\swagger\studentapp\restbyapiinfo\ProductsCURDTestWithSteps.class
+ui\swagger\studentapp\restbyapiinfo\ServicesCRUDTestWithStep.class
+ui\swagger\studentapp\restbyapiinfo\StoresCRUDTestWithSteps.class
+ui\swagger\studentapp\restbyapiinfo\UtilitiesCRUDTestWithSteps.class
+ui\swagger\studentapp\testbase\TestBase.class

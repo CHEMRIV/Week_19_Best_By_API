@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing different request on the Category list in best by api application" skipped="0" tests="5" time="0.75" timestamp="2022-06-20T00:40:46.839+01:00[Europe/London]"><testcase name="Check if the best by api application can be accessed by users"/><testcase name="Check if the best by api application can be create users ids"/><testcase name="User verify if the Category was added to the application"/><testcase name="User verify if the Category Update to the application"/><testcase name="User verify if the Category id is Delete from the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+ui.swagger.studentapp.cucumber.steps.CategoriesStepdefs.userShouldDeleteCategoryIdSuccessfullyWithStatusCode(CategoriesStepdefs.java:83)&#13;
+✽.Then User should delete category id successfully with status code 200(categoriesCRUDtest.feature:22)&#13;
+</system-err></testcase></testsuite>

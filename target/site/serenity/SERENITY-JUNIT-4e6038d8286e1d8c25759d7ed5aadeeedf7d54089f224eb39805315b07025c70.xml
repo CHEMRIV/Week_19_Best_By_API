@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing different request on the store list in best by api application" skipped="0" tests="5" time="0.59" timestamp="2022-06-20T00:40:45.328+01:00[Europe/London]"><testcase name="Check if the store list can be accessed by users"/><testcase name="Check if user can create id in store list"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+ui.swagger.studentapp.cucumber.steps.StoresStepdefs.userMustGetAValidateStatusCode(StoresStepdefs.java:55)&#13;
+✽.Then User must get a validate status code 201(StoresCRUDtest.feature:10)&#13;
+</system-err></testcase><testcase name="User verify if created id added to store list"/><testcase name="User verify if created id Update to the store list"/><testcase name="User verify if the created id is Delete from the store list"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+ui.swagger.studentapp.cucumber.steps.StoresStepdefs.userCheckDeletedIdHaveStatusCodeShouldBe(StoresStepdefs.java:104)&#13;
+✽.And User check deleted id have status code should be 404(StoresCRUDtest.feature:24)&#13;
+</system-err></testcase></testsuite>
